@@ -25,6 +25,14 @@ npm run preview
 
 The static site is written to `dist/` and can be deployed as-is to Vercel, Netlify, GitHub Pages or any static host.
 
+## Deploy to GitHub Pages
+
+The workflow in [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) builds and deploys the site automatically whenever changes are pushed to `main`.
+
+In the repository settings, open **Pages**, set **Source** to **GitHub Actions**, then push to `main`. The site will be available at:
+
+`https://mdfaizanahmad12.github.io/Portfolio/`
+
 ## Updating the content
 
 **All content lives in one file: [`src/data/portfolio.ts`](src/data/portfolio.ts).** It was generated from the resume, and every component reads from it.
