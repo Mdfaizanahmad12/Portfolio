@@ -26,7 +26,7 @@ export const profile = {
     srcSet: `${asset('portrait-420.webp')} 420w, ${asset('portrait-720.webp')} 720w, ${asset('portrait-1100.webp')} 1100w`,
     alt: 'Portrait of Md Faizan Ahmad',
   },
-  interests: ['Artificial Intelligence', 'Full-Stack Development', 'Problem Solving'],
+  interests: ['Artificial Intelligence', 'Full-Stack Development', 'Problem Solvings'],
 };
 
 export const education = [
