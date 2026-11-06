@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title">
+  <title>Portrait placeholder for Faizan</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2a0610"/>
+      <stop offset=".55" stop-color="#7a0f24"/>
+      <stop offset="1" stop-color="#09070a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".35" r=".6">
+      <stop offset="0" stop-color="#ff3d5a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ff3d5a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="900" fill="url(#bg)"/>
+  <rect width="720" height="900" fill="url(#glow)"/>
+  <circle cx="360" cy="350" r="155" fill="#f4f1ec" fill-opacity=".12"/>
+  <path d="M145 820c18-170 112-245 215-245s197 75 215 245" fill="#f4f1ec" fill-opacity=".12"/>
+  <text x="360" y="420" fill="#f4f1ec" font-family="Arial, sans-serif" font-size="128" font-weight="700" text-anchor="middle" letter-spacing="8">RA</text>
+</svg>
